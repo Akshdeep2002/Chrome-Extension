@@ -18,7 +18,7 @@ async function getMatchData() {
         )
         .map(
           (match) =>
-            `${match.name}, ${match.status}, ${match.t1}, ${match.t2}, ${match.t1s}, ${match.t2s}`
+            `${match.matchType}, ${match.status}, ${match.t1}, ${match.t2}, ${match.t1s}, ${match.t2s}`
         );
 
       console.log({ relevantData });
