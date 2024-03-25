@@ -16,10 +16,7 @@ async function getMatchData() {
         .filter(
           (match) => match.series_id == "76ae85e2-88e5-4e99-83e4-5f352108aebc"
         )
-        .map(
-          (match) =>
-            `${match.matchType}, ${match.status}, ${match.t1}, ${match.t2}, ${match.t1s}, ${match.t2s}`
-        );
+        .map((match) => `${match.name}, ${match.matchType}, ${match.status}`);
 
       console.log({ relevantData });
 
