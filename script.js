@@ -1,7 +1,7 @@
 async function getMatchData() {
   //fetching cricket information from cricketdata.org
   return await fetch(
-    "https://api.cricapi.com/v1/currentMatches?apikey=bef4b6e4-0fbb-4e11-9410-6e16e2ca5ab1&offset=0"
+    "https://api.cricapi.com/v1/cricScore?apikey=79f41bc6-928a-4142-afc4-752df33bc5b0"
   )
     .then((data) => data.json())
     .then((data) => {
