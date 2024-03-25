@@ -1,0 +1,12 @@
+{
+  "name": "Cricket Chrome Extension",
+  "version": "1.0.0",
+  "description": "Basic cricket information on any chrome tab",
+  "manifest_version": 3,
+  "author": "Akshdeep Yadav",
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "Cricket Chrome Extension"
+  },
+  "permissions": ["activeTab"]
+}
